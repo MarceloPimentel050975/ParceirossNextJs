@@ -26,7 +26,7 @@ export const Users = [
   },
   {
     id:6,
-    profilePicture: "assets/person/6.jpeg",
+    profilePicture: "assets/person/9.jpeg",
     username: "Shirley Beauchamp",
   },
   {
@@ -41,7 +41,7 @@ export const Users = [
   },
   {
     id:9,
-    profilePicture: "assets/person/9.jpeg",
+    profilePicture: "assets/person/6.jpeg",
     username: "Gary Duty",
   },
   {
@@ -60,10 +60,12 @@ export const Posts = [
     userId: 1,
     like: 32,
     comment: 9,
+    workStatus: "Trabalho concluido",
   },
   {
     id: 2,
-    photo: "assets/post/2.jpeg",
+    desc: "Eu e meu chapéu lindo.",
+    photo: "assets/post/13.jpg",
     date: "15 mins ago",
     userId: 2,
     like: 2,
@@ -71,8 +73,8 @@ export const Posts = [
   },
   {
     id: 3,
-    desc: "Descanso merecido :)",
-    photo: "assets/post/3.jpeg",
+    desc: "Finalizado :)",
+    photo: "assets/post/12.jpg",
     date: "1 hour ago",
     userId: 3,
     like: 61,
@@ -113,7 +115,7 @@ export const Posts = [
   },
   {
     id: 8,
-    photo: "assets/post/8.jpeg",
+    photo: "assets/post/8.jpg",
     date: "3 days ago",
     userId: 8,
     like: 15,
@@ -122,7 +124,7 @@ export const Posts = [
   {
     id: 9,
     desc: "Mude o mundo fazendo o bem.",
-    photo: "assets/post/9.jpeg",
+    photo: "assets/post/14.jpg",
     date: "5 days ago",
     userId: 9,
     like: 11,

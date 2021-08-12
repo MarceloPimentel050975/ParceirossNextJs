@@ -9,6 +9,8 @@ import {
   WorkOutline,
   Event,
   School,
+  Work,
+  LocationCity,
 } from "@material-ui/icons";
 import { Users } from "../../dummyData";
 import CloseFriend from "../closeFriend/CloseFriend";
@@ -28,31 +30,39 @@ export default function Sidebar() {
           </li>
           <li className="sidebarListItem">
             <PlayCircleFilledOutlined className="sidebarIcon" />
-            <span className="sidebarListItemText">Videos</span>
+            <span className="sidebarListItemText">Vídeos</span>
           </li>
           <li className="sidebarListItem">
             <Group className="sidebarIcon" />
-            <span className="sidebarListItemText">Groups</span>
+            <span className="sidebarListItemText">Grupos</span>
           </li>
           <li className="sidebarListItem">
             <Bookmark className="sidebarIcon" />
-            <span className="sidebarListItemText">Bookmarks</span>
+            <span className="sidebarListItemText">Favoritos</span>
           </li>
           <li className="sidebarListItem">
             <HelpOutline className="sidebarIcon" />
-            <span className="sidebarListItemText">Questions</span>
+            <span className="sidebarListItemText">Questões</span>
+          </li>
+          <li className="sidebarListItem">
+            <Work className="sidebarIcon" />
+            <span className="sidebarListItemText">Ofertas</span>
           </li>
           <li className="sidebarListItem">
             <WorkOutline className="sidebarIcon" />
-            <span className="sidebarListItemText">Jobs</span>
+            <span className="sidebarListItemText">Demandas</span>
           </li>
           <li className="sidebarListItem">
             <Event className="sidebarIcon" />
-            <span className="sidebarListItemText">Events</span>
+            <span className="sidebarListItemText">Projetos</span>
+          </li>
+          <li className="sidebarListItem">
+            <LocationCity className="sidebarIcon" />
+            <span className="sidebarListItemText">Comunidades</span>
           </li>
           <li className="sidebarListItem">
             <School className="sidebarIcon" />
-            <span className="sidebarListItemText">Courses</span>
+            <span className="sidebarListItemText">Cursos</span>
           </li>
         </ul>
         <button className="sidebarButton">Show More</button>

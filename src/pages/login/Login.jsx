@@ -7,12 +7,6 @@ export default function Login() {
     <div className="login">
       <div className="loginWrapper">
         <img className="loginLeft" src="assets/logo3.png" alt="" />
-        {/* <div className="loginLeft">
-          <h3 className="loginLogo">Parceiross.com.br</h3>
-          <span className="loginDesc">
-            Conectando habilidades e comunidades.
-          </span>
-        </div> */}
         <div className="loginRight">
           <div className="loginBox">
             <input placeholder="Email" className="loginInput" />

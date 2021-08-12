@@ -12,8 +12,8 @@ export default function Rightbar({ profile }) {
             <b>Danilo Carlotti</b> e <b>3 outros amigos</b> finalizaram um serviço.
           </span>
         </div>
-        <img className="rightbarAd" src="assets/tech.jpeg" alt="" />
-        <h4 className="rightbarTitle">Amigos Online</h4>
+        <img className="rightbarAd" src="assets/tech.png" alt="" />
+        <h4 className="rightbarTitle">Parceiros Online</h4>
         <ul className="rightbarFriendList">
           {Users.map((u) => (
             <Online key={u.id} user={u} />

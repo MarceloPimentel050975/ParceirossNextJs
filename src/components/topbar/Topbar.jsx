@@ -5,10 +5,12 @@ import { Search, Person, Chat, Notifications, StarRate } from "@material-ui/icon
 export default function Topbar() {
   return (
     <div className="topbarContainer">
-      {/* <img className="topbarLeft" src="assets/layout.jpeg" alt="" /> */}
-      <div className="topbarLeft">
+      <Link to="/">
+        <img className="topbarLeft" src="assets/logo-sp.png" alt="" />
+      </Link>
+      {/* <div className="topbarLeft">
         <span className="logo">Parceiross.com.br</span>
-      </div>
+      </div> */}
       <div className="topbarCenter">
         <div className="searchbar">
           <Search className="searchIcon" />
@@ -20,7 +22,7 @@ export default function Topbar() {
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
-          <span className="topbarLink">Homepage</span>
+          {/* <span className="topbarLink">Home</span> */}
           <span className="topbarLink">Timeline</span>
         </div>
         {/* <span className="topbarLinkRate">Avaliação </span> */}

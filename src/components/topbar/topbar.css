@@ -3,8 +3,8 @@
   width: 100%;
   background: linear-gradient(
     to bottom,
-    #66b0ec,
-    #1d3e80 80%,
+    #66b0ec 5%,
+    #0056bc 80%,
     #66b0ec,
     #ff931e
   );
@@ -16,7 +16,20 @@
 }
 
 .topbarLeft {
-  flex: 3;
+  width: 70px;
+  height: 50px;
+  /* flex: 3; */
+  /* border-radius: 50%; */
+  /* position: absolute; */
+  display: flex;
+  /* align-items: center; */
+  /* top: 5px; */
+  /* right: 5px; */
+  /* left: 15px; */
+  /* display: flex; */
+  margin-left: 20px;
+  margin-right: 330px;
+  margin-bottom: 5px;
 }
 
 .logo {
