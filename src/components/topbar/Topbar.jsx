@@ -8,9 +8,6 @@ export default function Topbar() {
       <Link to="/">
         <img className="topbarLeft" src="assets/logo-sp.png" alt="" />
       </Link>
-      {/* <div className="topbarLeft">
-        <span className="logo">Parceiross.com.br</span>
-      </div> */}
       <div className="topbarCenter">
         <div className="searchbar">
           <Search className="searchIcon" />

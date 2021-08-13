@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from "./pages/home/Home";
 import Login from "./pages/login/Login";
 import Profile from "./pages/profile/Profile";
+import Community from "./pages/community/Community";
 import Register from "./pages/register/Register";
 
 // function App() {
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/profile">
           <Profile />
+        </Route>
+        <Route path="/community">
+          <Community />
         </Route>
       </Switch>
     </BrowserRouter>

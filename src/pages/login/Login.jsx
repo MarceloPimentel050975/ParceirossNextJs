@@ -1,6 +1,7 @@
 import "./login.css";
 
 import { Link } from "react-router-dom";
+import { Google, GTranslate } from "@material-ui/icons";
 
 export default function Login() {
   return (
@@ -12,13 +13,15 @@ export default function Login() {
             <input placeholder="Email" className="loginInput" />
             <input placeholder="Senha" className="loginInput" />
             <Link to="/" className="loginButton">
-              <button className="loginButton">Log In</button>
+              <button className="loginButton">Entrar</button>
             </Link>
+            <button className="loginButton">
+            <img className="loginIconButton" src="assets/google.png"alt="" />
+            Entrar com Google
+            </button>
             <span className="loginForgot">Esqueceu a Senha?</span>
             <Link to="/register" className="loginRegisterButton">
-              <button className="loginRegisterButton">
-                Criar Conta
-              </button>
+              <button className="loginRegisterButton">Criar Conta</button>
             </Link>
           </div>
         </div>
