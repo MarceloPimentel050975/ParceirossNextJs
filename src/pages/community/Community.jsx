@@ -2,36 +2,36 @@ import "./community.css";
 import Topbar from "../../components/topbar/Topbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Feed from "../../components/feed/Feed";
-import Rightbar from "../../components/rightbar/Rightbar";
+import RightbarCommunity from "../../components/rightbarCommunity/RightbarCommunity";
 
-export default function Profile() {
+export default function Community() {
   return (
     <>
       <Topbar />
-      <div className="profile">
+      <div className="community">
         <Sidebar />
-        <div className="profileRight">
-          <div className="profileRightTop">
-            <div className="profileCover">
+        <div className="communityRight">
+          <div className="communityRightTop">
+            <div className="communityCover">
               <img
-                className="profileCoverImg"
+                className="communityCoverImg"
                 src="assets/community/4.jpeg"
                 alt=""
               />
               <img
-                className="profileUserImg"
+                className="communityUserImg"
                 src="assets/community/1.jpeg"
                 alt=""
               />
             </div>
-            <div className="profileInfo">
-                <h4 className="profileInfoName">Pedreira</h4>
-                <span className="profileInfoDesc">Comunidade Parceira</span>
+            <div className="communityInfo">
+                <h4 className="communityInfoName">Pedreira</h4>
+                <span className="communityInfoDesc">Comunidade Parceira</span>
             </div>
           </div>
-          <div className="profileRightBottom">
+          <div className="communityRightBottom">
             <Feed />
-            <Rightbar profile/>
+            <RightbarCommunity community/>
           </div>
         </div>
       </div>

@@ -1,8 +1,8 @@
-import "./rightbar.css";
+import "./rightbarCommunity.css";
 import { Users } from "../../dummyData";
 import Online from "../online/Online";
 
-export default function Rightbar({ profile }) {
+export default function Rightbar({ community }) {
   const HomeRightbar = () => {
     return (
       <>
@@ -23,14 +23,14 @@ export default function Rightbar({ profile }) {
     );
   };
 
-  const ProfileRightbar = () => {
+  const CommunityRightbar = () => {
     return (
       <>
         <h4 className="rightbarTitle">Perfil</h4>
         <div className="rightbarInfo">
           <div className="rightbarInfoItem">
-            <span className="rightbarInfoKey">Habilidades Profissionais:</span>
-            <span className="rightbarInfoValue">Eletricista</span>
+            <span className="rightbarInfoKey">localidade:</span>
+            <span className="rightbarInfoValue">Zona Norte</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Cidade:</span>
@@ -40,60 +40,60 @@ export default function Rightbar({ profile }) {
             <span className="rightbarInfoKey">Comunidade:</span>
             <span className="rightbarInfoValue">Pedreira</span>
           </div>
-          <div className="rightbarInfoItem">
+          {/* <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Interesses:</span>
-            <span className="rightbarInfoValue">Projetos longos</span>
-          </div>
+            <span className="rightbarInfoValue">Projetos de longo Prazo</span>
+          </div> */}
         </div>
-        <h4 className="rightbarTitle">Seguindo</h4>
+        <h4 className="rightbarTitle">Comunidades Parceiras</h4>
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/person/5.jpg"
+              src="assets/community/3.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Danilo Carlotti</span>
+            <span className="rightbarFollowingName">Quilomblos</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/2.jpeg"
+              src="assets/community/5.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Darth Vader</span>
+            <span className="rightbarFollowingName">Madalena</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/3.jpeg"
+              src="assets/community/6.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Chuwbacca</span>
+            <span className="rightbarFollowingName">São Jorge</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/4.jpeg"
+              src="assets/community/7.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Luke Skywalker</span>
+            <span className="rightbarFollowingName">Barroca</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/44.jpeg"
+              src="assets/community/8.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Suzy Carter</span>
+            <span className="rightbarFollowingName">Vila prel</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/6.jpeg"
+              src="assets/community/9.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Lex Carter</span>
+            <span className="rightbarFollowingName">Morro grande</span>
           </div>
         </div>
       </>
@@ -102,7 +102,7 @@ export default function Rightbar({ profile }) {
   return (
     <div className="rightbar">
       <div className="rightbarWrapper">
-        {profile ? <ProfileRightbar /> : <HomeRightbar />}
+        {community ? <CommunityRightbar /> : <HomeRightbar />}
       </div>
     </div>
   );

@@ -19,8 +19,10 @@ export default function Topbar() {
       </div>
       <div className="topbarRight">
         <div className="topbarLinks">
-          {/* <span className="topbarLink">Home</span> */}
-          <span className="topbarLink">Timeline</span>
+        <Link to="/community" className="topbarLink">
+          <span>Comunidade</span>
+        </Link>
+          {/* <span className="topbarLink">Timeline</span> */}
         </div>
         {/* <span className="topbarLinkRate">Avaliação </span> */}
         <div className="topbarIconRate">
