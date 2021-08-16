@@ -53,7 +53,7 @@ export default function Rightbar({ community }) {
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">Quilomblos</span>
+            <span className="rightbarFollowingName">Quilombola</span>
           </div>
           <div className="rightbarFollowing">
             <img

@@ -28,7 +28,7 @@
   /* left: 15px; */
   /* display: flex; */
   margin-left: 20px;
-  margin-right: 330px;
+  margin-right: 225px;
   margin-bottom: 5px;
 }
 
@@ -51,7 +51,7 @@
   border-radius: 30px;
   display: flex;
   align-items: center;
-  margin-left: -20px;
+  /* margin-left: -50px; */
 }
 
 .searchIcon {

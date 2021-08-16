@@ -1,7 +1,6 @@
 import "./login.css";
 
 import { Link } from "react-router-dom";
-import { Google, GTranslate } from "@material-ui/icons";
 
 export default function Login() {
   return (

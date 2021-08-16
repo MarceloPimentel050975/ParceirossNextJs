@@ -140,3 +140,80 @@ export const Posts = [
     comment: 12,
   },
 ];
+
+export const Communities = [
+  {
+    id:1,
+    profilePicture: "assets/community/1.jpeg",
+    username: "Pedreira",
+  },
+  {
+    id:2,
+    profilePicture: "assets/community/3.jpeg",
+    username: "Quilombola",
+  },
+  {
+    id:3,
+    profilePicture: "assets/community/5.jpeg",
+    username: "Madalena",
+  },
+  {
+    id:4,
+    profilePicture: "assets/community/7.jpeg",
+    username: "Barroca",
+  },
+  {
+    id:5,
+    profilePicture: "assets/community/8.jpeg",
+    username: "Vila Prel",
+  },
+]
+
+export const PostCommunities = [
+  {
+    id: 1,
+    desc: "Melhorando a comunidade",
+    photo: "assets/communityPosts/1.jpeg",
+    date: "5 mins ago",
+    userId: 1,
+    like: 32,
+    comment: 9,
+    workStatus: "Trabalho concluido",
+  },
+  {
+    id: 2,
+    desc: "Bora Galera!!!",
+    photo: "assets/communityPosts/2.jpeg",
+    date: "15 mins ago",
+    userId: 2,
+    like: 2,
+    comment: 1,
+  },
+  {
+    id: 3,
+    desc: "comunidade agil :)",
+    photo: "assets/communityPosts/3.jpeg",
+    date: "30 mins ago",
+    userId: 3,
+    like: 9,
+    comment: 44,
+  },
+  {
+    id: 4,
+    desc: "Assim que se faz",
+    photo: "assets/communityPosts/4.jpeg",
+    date: "35 mins ago",
+    userId: 4,
+    like: 44,
+    comment: 10,
+  },
+  {
+    id: 5,
+    desc: "Muito talento",
+    photo: "assets/communityPosts/7.jpeg",
+    date: "38 mins ago",
+    userId: 5,
+    like: 56,
+    comment: 19,
+  },
+]

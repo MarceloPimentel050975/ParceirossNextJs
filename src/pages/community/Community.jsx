@@ -1,7 +1,7 @@
 import "./community.css";
 import Topbar from "../../components/topbar/Topbar";
 import Sidebar from "../../components/sidebar/Sidebar";
-import Feed from "../../components/feed/Feed";
+import FeedCommunity from "../../components/feedCommunity/FeedCommunity";
 import RightbarCommunity from "../../components/rightbarCommunity/RightbarCommunity";
 
 export default function Community() {
@@ -15,7 +15,7 @@ export default function Community() {
             <div className="communityCover">
               <img
                 className="communityCoverImg"
-                src="assets/community/4.jpeg"
+                src="assets/community/banner.jpeg"
                 alt=""
               />
               <img
@@ -30,7 +30,7 @@ export default function Community() {
             </div>
           </div>
           <div className="communityRightBottom">
-            <Feed />
+            <FeedCommunity />
             <RightbarCommunity community/>
           </div>
         </div>
