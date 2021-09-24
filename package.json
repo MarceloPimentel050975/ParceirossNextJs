@@ -17,12 +17,11 @@
     "firebase": "^9.0.1",
     "firebase-admin": "^9.11.1",
     "formik": "^2.2.9",
-    "formkit": "^1.1.5",
+    "multer": "^1.4.3",
     "next": "^11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-firebase-hooks": "^3.0.4",
-    "react-router-dom": "^5.2.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "^5.3.0",
     "yup": "^0.32.9"
   },
   "devDependencies": {

@@ -7,8 +7,7 @@ export default function Feed() {
   return (
     <div className="feed">
       <div className="feedWrapper">
-        <Share />
-        {HomePosts.map((ph) => (
+    {HomePosts.map((ph) => (
           <PostHome key={ph.id} post={ph} />
         ))}
       </div>

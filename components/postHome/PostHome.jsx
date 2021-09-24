@@ -1,7 +1,7 @@
-import "../postHome/postHome.module.css";
 import { MoreVert, Check } from "@material-ui/icons";
 import { HomeUsers } from "../../dummyData";
 import { useState } from "react";
+import styles from './PostHome.module.css'
 
 export default function PostHome({ post }) {
   const [like,setLike] = useState(post.like)
