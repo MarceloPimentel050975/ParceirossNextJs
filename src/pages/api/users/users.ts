@@ -14,7 +14,7 @@ export default async function (req, res )
     try
     {
       console.log( "GET ...." )
-      //console.log( "--->" + req.body );
+      console.log( "--->" + req.body );
       const userlogged = await prismaclient.user.findMany({
               where: {
                 email: {
