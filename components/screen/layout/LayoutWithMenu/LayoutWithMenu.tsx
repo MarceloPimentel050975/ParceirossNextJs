@@ -100,7 +100,7 @@ const useStyles = makeStyles((theme: Theme) =>
   }),
 );
 
-export default function LayoutWithMenuComponent({children }) {
+export default function LayoutWithMenuComponent() {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -182,7 +182,7 @@ const SliderDrawerMenuItemDynamic = (
         })}
       >
         <div className={classes.drawerHeader} />
-        {children}
+       
       </main>
   );
 
