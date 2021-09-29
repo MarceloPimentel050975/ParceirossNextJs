@@ -108,11 +108,11 @@ export default function register(props) {
           <Typography component="h3" variant="h5">
             Crie sua conta
           </Typography>
-        </Box>
+      
 
         <form noValidate onSubmit={formik.handleSubmit}>
           <TextField
-            variant="outlined"
+            variant="filled"
             margin="normal"
             fullWidth
             id="name"
@@ -133,7 +133,7 @@ export default function register(props) {
             helperText={formik.touched.name && formik.errors.name}
           />
           <TextField
-            variant="outlined"
+            variant="filled"
             margin="normal"
             fullWidth
             id="email"
@@ -153,7 +153,7 @@ export default function register(props) {
             helperText={formik.touched.email && formik.errors.email}
           />
           <TextField
-            variant="outlined"
+            variant="filled"
             margin="normal"
             fullWidth
             name="password"
@@ -174,7 +174,7 @@ export default function register(props) {
             helperText={formik.touched.password && formik.errors.password}
           />
           <TextField
-            variant="outlined"
+            variant="filled"
             margin="normal"
             fullWidth
             name="confirmPassword"
@@ -210,27 +210,28 @@ export default function register(props) {
             Criar minha conta
           </Button>
           {formik.isSubmitting && <FormLoadingComponent />}
+        
         </form>
-
+      </Box>
+       
         <p>
           Ao se registrar, você concorda com os{' '}
           <Link href="#">termos de uso</Link> e a{' '}
           <Link href="#">política de privacidade</Link> do app.
         </p>
 
-        <Divider className={classes.divider} variant="fullWidth" />
+          <Divider className={classes.divider} variant="fullWidth" />
 
-        <CopyrightComponent />
-      </Paper>
-      <div>
-        <Box mt={10}>
-          <Link href="/">
+        <Box mt={1} textAlign="center">
+          <NextLink href="/">
             <Button color="primary" startIcon={<ArrowBackIcon />}>
               Voltar
             </Button>
-          </Link>
+          </NextLink>
         </Box>
-      </div>
+
+        <CopyrightComponent />
+      </Paper>
     </div>
   );
 }

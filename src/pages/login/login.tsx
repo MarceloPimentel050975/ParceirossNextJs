@@ -115,7 +115,7 @@ export default function SignInSide(props) {
   return (
     <Grid container component="main" className={classes.root}>
       <CssBaseline />
-      <Grid item xs={false} sm={4} md={7} className={classes.image} />
+        <img width="500px" height="500px" alt="complex" src="/assets/logo.png" />
       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
           <Avatar className={classes.avatar}>
@@ -182,7 +182,7 @@ export default function SignInSide(props) {
           
             <Grid container>
               <Grid item xs>
-                <Link href="#" variant="body2">
+                <Link href="/forgot-password/forgot-password" variant="body2">
                   Esqueceu a senha?
                 </Link>
               </Grid>

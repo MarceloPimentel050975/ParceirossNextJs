@@ -72,11 +72,10 @@ export default function CreateAccountPage() {
           <Typography component="h3" variant="h5">
             Esqueceu sua senha?
           </Typography>
-        </Box>
 
-        <form noValidate onSubmit={formik.handleSubmit}>
+        <form noValidate onSubmit={formik.handleSubmit}> 
           <TextField
-            variant="outlined"
+            variant="filled"
             margin="normal"
             fullWidth
             id="email"
@@ -109,11 +108,12 @@ export default function CreateAccountPage() {
           </Button>
           {formik.isSubmitting && <FormLoadingComponent />}
         </form>
+        </Box>
 
         <Divider className={classes.divider} variant="fullWidth" />
 
         <Box mt={1} textAlign="center">
-          <NextLink href="login" passHref>
+          <NextLink href="/">
             <Button color="primary" startIcon={<ArrowBackIcon />}>
               Voltar
             </Button>

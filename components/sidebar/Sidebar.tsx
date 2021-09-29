@@ -14,6 +14,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/MoveToInbox';
 import MailIcon from '@material-ui/icons/Mail';
 import Share from '../share/Share';
+import PostCommunity from '../postCommunity/PostCommunity';
 
 const drawerWidth = 240;
 
@@ -38,6 +39,9 @@ const useStyles = makeStyles((theme: Theme) =>
     content: {
       flexGrow: 10,
       padding: theme.spacing(10),
+    },
+    divider: {
+      margin: theme.spacing(4, 0),
     },
   }),
 );
@@ -69,7 +73,8 @@ export default function PermanentDrawerLeft() {
         </div>
       </Drawer>
       <main className={classes.content}>
-        <Share/>
+        <Share />
+         <Divider className={classes.divider} variant="fullWidth" />
         </main>
     </div>
   );
