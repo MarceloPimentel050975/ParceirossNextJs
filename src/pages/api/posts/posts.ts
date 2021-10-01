@@ -25,6 +25,9 @@ export default async function (req, res )
       }
     } catch ( e )
     {
+      console.log( e.code );
+      console.error(e)
+      return res.status(500)
     }
     
     
