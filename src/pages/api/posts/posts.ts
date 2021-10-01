@@ -10,7 +10,8 @@ export default async function (req, res )
     method,
   } = req
 
-  if (req.method === 'GET'){
+  if (req.method === 'GET') {
+    /*
     try
     {
       console.log( "GET ...." )
@@ -28,7 +29,7 @@ export default async function (req, res )
       console.log( e.code );
       console.error(e)
       return res.status(500)
-    }
+    }*/
     
     
   } else if (req.method === 'POST') {
