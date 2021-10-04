@@ -1,4 +1,4 @@
-import { Avatar, Box, createStyles, CssBaseline, Grid, Link, makeStyles, Theme } from '@material-ui/core';
+import { Avatar, Box, Container, createStyles, CssBaseline, Grid, Link, makeStyles, Theme } from '@material-ui/core';
 import Button from '@material-ui/core/Button';
 import Divider from '@material-ui/core/Divider';
 import InputAdornment from '@material-ui/core/InputAdornment';
@@ -113,14 +113,12 @@ export default function SignInSide(props) {
   });
   
   return (
-    <Grid container component="main" className={classes.root}>
+    <Grid container component="main" className={classes.root} justify = "center">
       <CssBaseline />
-        <img width="500px" height="500px" alt="complex" src="/assets/logo.png" />
-      <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
+       <Grid item xs={12} sm={8} md={5} component={Paper} elevation={6} square>
         <div className={classes.paper}>
-          <Avatar className={classes.avatar}>
-         
-          </Avatar>
+            <img width="130px" height="130px" alt="complex" src="/assets/logo.png" />
+      
           <Typography component="h1" variant="h5">
             Sign in
           </Typography>
@@ -198,6 +196,6 @@ export default function SignInSide(props) {
           </form>
         </div>
       </Grid>
-    </Grid>
-  );
+      </Grid>
+   );
 }

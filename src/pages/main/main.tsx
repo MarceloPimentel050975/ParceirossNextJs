@@ -12,7 +12,6 @@ function Main(props) {
       <div className="homeContainer">
         <Sidebar />
         <FeedHome/>
-        <Rightbar profile = {true}/>
       </div>
     </>
   );

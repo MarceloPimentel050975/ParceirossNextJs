@@ -74,7 +74,8 @@ export default function PermanentDrawerLeft() {
       </Drawer>
       <main className={classes.content}>
         <Share />
-         <Divider className={classes.divider} variant="fullWidth" />
+        <Divider className={ classes.divider } variant="fullWidth" />
+        <PostCommunity/>
         </main>
     </div>
   );

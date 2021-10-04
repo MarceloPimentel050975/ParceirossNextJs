@@ -10,29 +10,7 @@ export default async function (req, res )
     method,
   } = req
 
-  if (req.method === 'GET') {
-    /*
-    try
-    {
-      console.log( "GET ...." )
-    
-      const userlogged = await prismaclient.post.findMany()
-      if ( userlogged != null )
-      {
-        res.status( 200 ).json( "status:ok" )
-      } else
-      {
-        res.status( 200 ).json( "status:nok" )
-      }
-    } catch ( e )
-    {
-      console.log( e.code );
-      console.error(e)
-      return res.status(500)
-    }*/
-    
-    
-  } else if (req.method === 'POST') {
+    if (req.method === 'POST') {
     try
     {
       console.log( "--->" + req.body );
