@@ -64,7 +64,6 @@ export default function PermanentDrawerLeft() {
           <List>
             {['Oferta', 'Demanda','Comunidades','Chat'].map((text, index) => (
               <ListItem button key={text}>
-                <ListItemIcon>{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}</ListItemIcon>
                 <ListItemText primary={text} />
               </ListItem>
             ))}
@@ -75,7 +74,7 @@ export default function PermanentDrawerLeft() {
       <main className={classes.content}>
         <Share />
         <Divider className={ classes.divider } variant="fullWidth" />
-        <PostCommunity/>
+        <PostCommunity />
         </main>
     </div>
   );
